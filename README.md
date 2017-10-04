@@ -5,7 +5,7 @@ This midterm exam comes from the `midterm-GASPAR` repo in the `sweng-epfl` GitHu
 You have already been asked to clone this repo in advance of the exam in order to test that everything works well using a "hello world" program. Please push your answers to this repo on the `master` branch. 
 
 
-Grading will be done on a snapshot of this repository on GitHub (not on your machine). The snapshot will be taken at **18:30 the day of the midterm*, and access to this repo will be terminated at that point (or earlier, if you leave the exam room). Please be careful not to overwrite your work, as we will not have the ability to roll back commits. Commit and push your work often during the exam, to make sure you don't lose local changes and to mitigate the risk of GitHub going down shortly before the end of the exam. We use automated scripts to extract the answers from your repo, so follow the instructions exactly, and do not place stray characters in the files you push.
+Grading will be done on a snapshot of this repository on GitHub (not on your machine). The snapshot will be taken at **18:30 on 10-Nov-2017*, and access to this repo will be terminated at that point (or earlier, if you leave the exam room). Please be careful not to overwrite your work, as we will not have the ability to roll back commits. Commit and push your work often during the exam, to make sure you don't lose local changes and to mitigate the risk of GitHub going down shortly before the end of the exam. We use automated scripts to extract the answers from your repo, so follow the instructions exactly, and do not place stray characters in the files you push.
 
 
 Exam rules:
