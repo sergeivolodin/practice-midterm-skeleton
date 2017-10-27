@@ -8,7 +8,7 @@ This is part 2 of the midterm exam. It has 17 questions.
 
 This file is named `Theory-Questions.md`. Provide the answers in this file and commit the file to the `master` branch of this `midterm-GASPAR` repo. Do not change the name of the file, and do not change the existing text unless otherwise indicated.
 For multiple-choice questions, we marked the choices as `[]`; you should change each one to `[y]` for all correct (yes) choices and to `[n]` for all incorrect (no) choices.
-Checkboxes left empty will indicate you did not answer that question, so please be careful.
+Checkboxes left empty will indicate you did not answer that question, so please be careful. Do not introduce extraneous spaces, as that will cause you to lose points.
 
 ### Question 1
 
