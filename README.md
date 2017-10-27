@@ -24,10 +24,10 @@ Exam rules:
 
 The midterm exam is worth 100 points in total, and you have 180 minutes (3 hours) to complete it. The exam consists of two parts:
 
-**Part 1: Practice Solutions [60 points]**
+**Part 1: Practice [60 points]**
 
 Please see [Practice-Questions.md](Practice-Questions.md) in this repo.
 
-**Part 2: Theory Solutions [40 points]**
+**Part 2: Theory [40 points]**
 
 Please see [Theory-Questions.md](Theory-Questions.md) in this repo.
