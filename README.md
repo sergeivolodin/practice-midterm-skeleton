@@ -1,6 +1,8 @@
 # Software Engineering
 ## Practice Midterm Exam 
 
+_This is a practice exam, not a real one. However, to maximize realism, everything below is phrased as if it was a real exam._
+
 This midterm exam comes from the `midterm-GASPAR` repo in the `sweng-epfl` GitHub organization.
 You have already been asked to clone this repo in advance of the exam in order to test that everything works well using a "hello world" program. Please push your answers to this repo on the `master` branch. 
 
