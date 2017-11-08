@@ -41,13 +41,23 @@ public final class Matrix {
 		}
 		_height = height;
 		_width = width;
-		columns = new ArrayList<Vector>(Collections.nCopies(_width, new Vector(_height)));
+
+		columns = new ArrayList<Vector>(Collections.nCopies(_width, null));
+
+		for(int j = 0; j < _width; j++) {
+			columns.set(j, new Vector(_height));
+		}
+
 	}
 
 	// create matrix from an array of elements
 	public Matrix(double[][] elements) {
 		if(elements == null) {
 			throw new IllegalArgumentException("Elements should point to an object");
+		}
+
+		if(elements.length <= 0) {
+			throw new IllegalArgumentException("Elements should be non-empty");
 		}
 
 		if(elements[0] == null) {
