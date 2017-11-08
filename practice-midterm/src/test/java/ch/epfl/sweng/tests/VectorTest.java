@@ -43,33 +43,23 @@ public final class VectorTest {
 
 	@Test
 	public void normTest() {
-		// empty vector norm is 0
-		Vector v = new Vector(0);
-		assertEquals(0.0, v.norm(), 0.0);
-
 		// norm of [1] * 100 is 10
-		v = new Vector(100);
+		Vector v = new Vector(100);
 		for(int i = 0; i < v.dimension(); i++) {
 			v.setElement(i, 1);
 		}
 		assertEquals(10.0, v.norm(), 0.0);
 	}
 
-	@Test
+	@Test(expected = IllegalArgumentException.class)
 	public void dimensionTestZero() {
 		Vector v = new Vector(0);
 		assertEquals(0, v.dimension());
 	}
 
-	@Test
+	@Test(expected = IllegalArgumentException.class)
 	public void dimensionTestLessZero() {
-		try {
-			Vector v = new Vector(-1);
-			assertEquals(0, 1);
-		}
-		catch(IllegalArgumentException e) {
-			assertEquals(0, 0);
-		}
+		Vector v = new Vector(-1);
 	}
 
 	@Test
@@ -100,15 +90,6 @@ public final class VectorTest {
 		catch(IndexOutOfBoundsException e) {
 			assertEquals(0, 0);
 		}
-
-		try {
-			Vector v = new Vector(0);
-			v.setElement(0, 0);
-			assertEquals(0, 1);
-		}
-		catch(IndexOutOfBoundsException e) {
-			assertEquals(0, 0);
-		}
 	}
 
 	@Test
@@ -134,15 +115,6 @@ public final class VectorTest {
 		try {
 			Vector v = new Vector(10);
 			v.getElement(11);
-			assertEquals(0, 1);
-		}
-		catch(IndexOutOfBoundsException e) {
-			assertEquals(0, 0);
-		}
-
-		try {
-			Vector v = new Vector(0);
-			v.getElement(0);
 			assertEquals(0, 1);
 		}
 		catch(IndexOutOfBoundsException e) {

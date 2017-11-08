@@ -21,7 +21,7 @@ public final class Vector{
 	// construct and allocate space for each component
 	// default value is 0
 	public Vector(int dimension) {
-		if(dimension < 0) {
+		if(dimension <= 0) {
 			throw new IllegalArgumentException("Dimension must be greater than zero");
 		}
 
