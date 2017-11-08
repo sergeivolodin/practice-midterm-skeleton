@@ -14,7 +14,7 @@ An empty checkboxe will indicate that you did not finish answering the correspon
 
 Which of the following is _not_ a sign of software complexity?
 
-- [n] Large number of methods
+- [y] Large number of methods
 - [n] Large number of small components
 - [n] Large number of component interactions
 
@@ -24,7 +24,7 @@ Which of the following is _not_ a sign of software complexity?
 Which of the following exceptions should be checked?
 
 - [y] A request to a server that times out
-- [y] A database query that attempts to retrieve data from a non-existent table
+- [n] A database query that attempts to retrieve data from a non-existent table
 - [y] A user enters an invalid email address when signing up on a website
 - [n] Your application requests a resource using a deprecated version of the API
 
@@ -35,8 +35,8 @@ Which of the following is true about using the Scrum Agile development to develo
 
 - [n] It allows you to eliminate code comments because only a small team is responsible for the code. This allows the team to move faster
 - [y] Team members may come from different backgrounds (e.g. Android developers, AppEngine server developers, and data scientists can be on the same team)
-- [y] The Scrum master helps maximize the business value of the application by prioritizing the customer’s interests
-- [y] The Daily Scrum is used to resolve any blocking issues that team members experience in the current sprint
+- [n] The Scrum master helps maximize the business value of the application by prioritizing the customer’s interests
+- [n] The Daily Scrum is used to resolve any blocking issues that team members experience in the current sprint
 
 
 ### Question 4
@@ -55,7 +55,7 @@ Your application may receive "garbage input" if it does which of the following?
 
 - [y] Reads a file
 - [n] Writes a file
-- [y] Reads data that it itself has previously written to memory
+- [n] Reads data that it itself has previously written to memory
 - [y] Has a command line interface
 
 
@@ -73,7 +73,7 @@ Which of the following are appropriate circumstances for adopting strict adheren
 
 Under which circumstances should you let a runtime exception abnormally terminate your application?
 
-- [n] A divide-by-0 calculation
+- [y] A divide-by-0 calculation
 - [n] A connection to a server times out when requesting a resource
 - [n] A user specifies an incorrect command line argument
 - [y] Not being able to load a necessary external library for your application
@@ -94,8 +94,8 @@ Which are the downsides of choosing a Scrum development model when designing and
 Your Android app communicates with several servers, some of which return XML while others return JSON. Which design pattern is most appropriate for writing the code to parse the servers’ responses?
 
 - [n] Observer
-- [n] Factory
-- [y] Decorator
+- [y] Factory
+- [n] Decorator
 - [n] Singleton
 
 
@@ -104,7 +104,7 @@ Your Android app communicates with several servers, some of which return XML whi
 Which of the following is true about software testing?
 
 - [y] Tests are useful for refactoring
-- [y] Testing proves that covered code has no bugs only if the tests pass
+- [n] Testing proves that covered code has no bugs only if the tests pass
 - [n] An application that has 100% test coverage is bug-free
 - [y] Tests can help identify if a "solved" bug reappears in a later iteration of the code ("regression" bugs)
 
@@ -123,9 +123,9 @@ public interface Stack<T> {
 ```
 
 - [n] The interface should be a class instead
-- [y] The stack index should be a generic index, so it doesn't limit the interface
+- [n] The stack index should be a generic index, so it doesn't limit the interface
 - [y] The interface exposes too much internal complexity, breaking the abstraction layer
-- [y] The interface should inherit from other interfaces to be more usable
+- [n] The interface should inherit from other interfaces to be more usable
 
 
 ### Question 12
@@ -142,7 +142,7 @@ You are tasked with modifying code a coworker wrote several years ago. The code 
 
 Which of the following are appropriate uses of an issue tracker (e.g. GitHub Issues in your SwEng project repositories) for a given server application called `InventoryServer`?
 
-- [y] Storing documentation about the API of `InventoryServer` for external developers
+- [n] Storing documentation about the API of `InventoryServer` for external developers
 - [y] Tracking new features for `InventoryServer`
 - [n] Tracking user interface bugs in `InventoryApp`, an Android app that communicates with `InventoryServer`
 - [y] Assigning issues to team members so everyone knows who is responsible for each piece of functionality
@@ -173,7 +173,7 @@ You are part of a team of four people who collaborate on code in a Git repositor
 What are Git pull requests used for?
 
 - [y] to ease peer reviewing
-- [y] to keep the code clean and tidy
+- [n] to keep the code clean and tidy
 - [y] to be able to see changes before merging these into master
 - [n] because this is the only way to put changes into the master branch
 - [n] because, you know, I was told to, but I don’t really know what it is...
